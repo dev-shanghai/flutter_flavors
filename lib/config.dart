@@ -12,7 +12,7 @@ class Config {
   static String get helloMessage {
     switch (appFlavor) {
       case Flavor.RELEASE:
-        return 'RELEASE';
+        return 'RELEASE1';
       case Flavor.DEVELOPMENT:
       default:
         return 'DEVELOPMENT';

@@ -3,6 +3,6 @@ import 'package:flutter_flavors/appEntry.dart';
 import 'package:flutter_flavors/config.dart';
 
 void main() {
-  Config.appFlavor = Flavor.RELEASE;
+  Config.appFlavor = Flavor.DEVELOPMENT;
   runApp(new MyApp());
 }
